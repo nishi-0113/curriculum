@@ -15,7 +15,9 @@ public static void main(String[] args) {
     
     array.set(1, "bar");
     
-    System.out.println(array.get(2));
+    int index = array.indexOf("foo");
+    System.out.println("fooのインデックス:" + index);
+
 
 
 {
